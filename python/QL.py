@@ -1,4 +1,6 @@
 '''
+OO QuickLook command using OOCalc sheet as a simple file manager.
+
 For OSX, make this accessible from:
   ~/Library/Application Support/OpenOffice/4/user/Scripts/python
 
