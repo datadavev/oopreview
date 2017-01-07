@@ -1,6 +1,11 @@
 '''
 For OSX, make this accessible from:
   ~/Library/Application Support/OpenOffice/4/user/Scripts/python
+
+Add that location to your trusted scripts in OO preferences, then for
+convenience, assign keys like ⌘⇧w = doPreview, ⌘⇧e = doOpen, and
+⌘⇧d = doFinder. Then with the cursor over a cell with a filename, press the
+key combo to view / edit / locate the listed file.
 '''
 import uno
 from com.sun.star.awt.MessageBoxButtons import BUTTONS_OK, BUTTONS_OK_CANCEL, BUTTONS_YES_NO, BUTTONS_YES_NO_CANCEL, BUTTONS_RETRY_CANCEL, BUTTONS_ABORT_IGNORE_RETRY
